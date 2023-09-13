@@ -1,98 +1,22 @@
-html {
-    height: 100vh;
-    width: 100vw;
-}
-
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: inline; */
+    text-align: center;
     background-color: white;
     box-shadow: 0px 0px 1em lightgrey;
     padding: 1em;
 }
 
+header > * {
+    margin: 0.25em;
+}
+
 body {
-    /* background: url("https://education.tamu.edu/wp-content/uploads/2020/07/gray-dots-full-1024x701.png"); */
     background-size: cover;
     box-sizing: border-box;
     background-color: whitesmoke;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* .calculator {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding: 1em;
-} */
-
-/* img {
-    margin-bottom: 1em;
-} */
-
-/* .calc-container {
-    box-sizing: border-box;
-    display: flex; */
-    /* justify-content: space-between; */
-    /* padding: 1em; */
-    /* gap: 1em; */
-    /* width: 100%;
-    height: 100%; */
-    /* flex:1; */
-/* } */
-
-/* .calc-type {
-    background-color: white;
-    padding: 0 1em 0 1em;
-    box-shadow: 0px 0px 0.5em lightgrey;
-    border-radius: 1px;
-    text-align: center;
-    gap: 1em;
-} */
-
-/* ul {
-    display: flex;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-auto-flow: column;
-    height: 100vh; /* why world why
-    margin: 0;
-    padding: 1em;
-    grid-gap: 1em;
-}
-
-li {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    background-color: white;
-    text-decoration: none;
-    /* flex-basis: 50%;
-    height: 100%;
-    flex: 1;
-}
-
-.calculator {
-    box-sizing: border-box;
-    width: 100%;
-} */
-
-/* .calculator {
-    display: table;
-    width: 100%;
-    margin: 1em;
-}
-
-.calc-type {
-    display: table-cell;
-} */
 
 img {
     box-shadow: 0px 0px 10px lightgrey;
@@ -141,3 +65,19 @@ img {
 .count-button:hover {
     transform: scale(1.15);
 }
+
+@media screen and (min-width: 480px) {
+    .calc-type-container {
+        flex-direction: column;
+    }
+}
+
+/* 23 september jem 8 pagi 
+bikin ppt ttg:
+- jlsin fakultas
+- bikin vlog kl bs foto foto 
+- jlsin cara msk snm,sbm + experience
+- ukt gmn
+
+buat edufair 
+*/

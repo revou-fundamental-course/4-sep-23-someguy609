@@ -18,23 +18,3 @@ perimiterSide.addEventListener('input', () => {
     }
     perimiterResult.innerText = 'Keliling: ' + (perimiterSide.value * 4);
 });
-
-// function countArea() {
-//     const side = document.getElementById('area-side').value;
-//     const result = document.getElementById('area-result');
-//     if (side < 0) {
-//         result.innerText = 'Sisi invalid (s < 0)';
-//         return;
-//     }
-//     result.innerText = 'Luas: ' + (side * side);
-// }
-
-// function countPerimiter() {
-//     const side = document.getElementById('perimiter-side').value;
-//     const result = document.getElementById('perimiter-result');
-//     if (side < 0) {
-//         result.innerText = 'Sisi invalid (s < 0)';
-//         return;
-//     }
-//     result.innerText = 'Keliling: ' + (side * 4);
-// }
