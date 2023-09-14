@@ -1,7 +1,7 @@
 const areaSide = document.getElementById('area-side');
 const perimiterSide = document.getElementById('perimiter-side');
 const areaResult = document.getElementById('area-result');
-const perimiterResult = document.getElementById('perimiter-side');
+const perimiterResult = document.getElementById('perimiter-result');
 
 areaSide.addEventListener('input', () => {
     if (areaSide.value < 0) {
