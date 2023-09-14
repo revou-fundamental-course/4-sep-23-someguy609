@@ -19,7 +19,7 @@ body {
 
 img {
     box-shadow: 0px 0px 10px lightgrey;
-    width: 60%;
+    width: 50%;
 }
 
 .calculator {
@@ -67,6 +67,7 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+
     img {
         width: 70%;
     }
@@ -74,4 +75,5 @@ img {
     .calc-type-container {
         grid-template-columns:1fr;
     }
+
 }
